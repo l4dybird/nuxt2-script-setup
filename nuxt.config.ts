@@ -40,7 +40,6 @@ const config: NuxtConfig = {
     // https://go.nuxtjs.dev/typescript
     ['@nuxt/typescript-build', { typeCheck: false }],
     '@nuxtjs/composition-api/module',
-    'unplugin-vue2-script-setup/nuxt',  
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

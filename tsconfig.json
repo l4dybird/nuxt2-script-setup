@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "preserve",
     "target": "ES2018",
     "module": "ESNext",
     "moduleResolution": "Node",
@@ -26,12 +27,11 @@
     "types": [
       "@nuxt/types",
       "@nuxtjs/axios",
-      "@types/node",
-      "unplugin-vue2-script-setup/types"
+      "@types/node"
     ]
   },
   "vueCompilerOptions": {
-    "experimentalCompatMode": 2
+    "target": 2.7
   },
   "exclude": [
     "node_modules",
